@@ -1,0 +1,11 @@
+@font-face /* Définition des polices personnalisées */
+{
+    font-family: 'Dayrom';
+    src: url('police/dayrom.eot');
+    src: url('police/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('police/dayrom.woff') format('woff'),
+         url('police/dayrom.ttf') format('truetype'),
+         url('police/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
