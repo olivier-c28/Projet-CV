@@ -46,3 +46,78 @@ h1
 	display: flex;
 	flex-direction: row;
 }
+
+aside /* Partie liseret */
+{
+	position: relative;
+	width: 405px;
+	height: 1420px;
+	background-color: #FFD600;
+	word-break: break-all;
+}
+
+h2
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	color : #FFD600;
+	background-color: #424242;
+	border:1px solid black;
+}
+
+.moi
+{
+	text-transform: uppercase;
+}
+
+p
+{
+	margin-left: 30px;
+	margin-right: 30px;
+	word-break: normal;
+}
+
+img
+{
+   width:200px;
+   clip-path: ellipse(35% 50%);
+   position: relative;
+   left: 40px;
+   margin-top: 50px;
+}
+
+#hobbies
+{
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 390px;
+}
+
+.fas.fa-running.fa-2x
+{
+	color: #424242;
+}
+
+.fas.fa-plane.fa-2x
+{
+	color: #424242;
+}
+
+.fas.fa-gamepad.fa-2x
+{
+	color: #424242;
+}
+
+.titre
+{
+	position: relative;
+	top: 390px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	color : #FFD600;
+	background-color: #424242;
+	border:1px solid black;
+}
