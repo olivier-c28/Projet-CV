@@ -173,3 +173,72 @@ i
 	right: 14px;
 	margin-left: 4px;
 }
+
+@media all and (max-width: 1024px)
+{
+    body 
+    {
+		width: auto;
+		background-color: #FFD600;
+		font-size: 20px;
+    }
+
+	aside
+	{
+		width: auto;
+	}
+
+    #position
+    {
+		flex-direction: column;
+		position: absolute;
+    }
+
+    section
+    {
+        width: auto;
+		margin-bottom: 15px;
+		margin-right: 50px;
+    }
+
+	header
+	{
+		position: static;
+		margin-left: 350px;
+	}
+
+	img 
+	{
+		left: 390px;
+	}
+
+	.jaune, hr, i, h2, .titre
+	{
+		color: white;
+	}
+
+	.cercle
+	{
+		background-color: white;
+	}
+
+	.fas.fa-running.fa-2x, .fas.fa-plane.fa-2x, .fas.fa-gamepad.fa-2x
+	{
+		color: white;
+	}
+
+	#hobbies
+	{
+		top: 150px;
+	}
+	.titre
+	{
+		top: 150px;
+	}
+
+	table
+	{
+		margin-top: 0px;
+	}
+
+}
