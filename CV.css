@@ -121,3 +121,55 @@ img
 	background-color: #424242;
 	border:1px solid black;
 }
+
+table /* partie section */
+{
+	margin-top: 200px;
+	margin-left: 100px;
+	word-break: break-all;
+	border-spacing: 0px 28px;
+	
+	
+}
+
+caption
+{
+	font-size: 23px;
+	text-transform: capitalize;
+	text-align: left;
+}
+
+td
+{
+	empty-cells: top;
+	width: 465px;
+	vertical-align: top;
+	word-break: normal;
+}
+
+hr
+{
+	height: 1px;
+  	background-color: #FFD600;
+}
+
+i
+{
+	color: #FFD600;
+}
+
+.far.fa-dot-circle
+{
+	position: relative;
+	right: 14px;
+}
+.cercle {
+    width: 7px;
+	height: 7px;
+	border-radius: 20px;
+	background: #FFD600;
+	display: inline-block;
+	position: relative;
+	right: 14px;
+	margin-left: 4px;
+}
