@@ -13,7 +13,7 @@
 body
 {
 	height: auto;
-	width: 1000px;
+	width: 1060px;
 	margin: auto;
 	font-family: 'Dayrom', Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -92,7 +92,7 @@ img
 	display: flex;
 	justify-content: space-around;
 	position: relative;
-	top: 390px;
+	top: 470px;
 }
 
 .fas.fa-running.fa-2x
@@ -113,7 +113,7 @@ img
 .titre
 {
 	position: relative;
-	top: 390px;
+	top: 470px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 20px;
