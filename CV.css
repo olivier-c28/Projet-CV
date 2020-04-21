@@ -22,7 +22,7 @@ body
 header
 {
 	position: absolute;
-	left: 590px;
+	left: 43%;
 }
 
 h1
@@ -204,12 +204,12 @@ i
 	header
 	{
 		position: static;
-		margin-left: 350px;
+		margin-left: 37%;
 	}
 
 	img 
 	{
-		left: 390px;
+		left: 40%;
 	}
 
 	.jaune, hr, i, h2, .titre
