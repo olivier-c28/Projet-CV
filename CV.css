@@ -66,7 +66,7 @@ h2
 	border:1px solid black;
 }
 
-.moi
+.moi, .recommandation
 {
 	text-transform: uppercase;
 }
