@@ -22,7 +22,7 @@ body
 header
 {
 	position: absolute;
-	left: 38%;
+	left: 40%;
 }
 
 h1
@@ -57,7 +57,7 @@ h1
 {
 	position: relative;
 	width: 405px;
-	height: 1470px;
+	height: 1500px;
 	background-color: #FFD600;
 	word-break: break-all;
 }
@@ -89,7 +89,7 @@ img
    width:200px;
    clip-path: ellipse(35% 50%);
    position: relative;
-   left: 28px;
+   left: 46px;
    margin-top: 50px;
 }
 
@@ -98,7 +98,7 @@ img
 	display: flex;
 	justify-content: space-around;
 	position: relative;
-	top: 470px;
+	top: 510px;
 }
 
 .fas.fa-running.fa-2x , .fas.fa-plane.fa-2x
@@ -126,7 +126,7 @@ img
 .titre
 {
 	position: relative;
-	top: 470px;
+	top: 510px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -199,6 +199,7 @@ i
 	.position.gauche
 	{
 		width: auto;
+		height: 1430px;
 	}
 
     #position
