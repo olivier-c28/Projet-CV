@@ -22,7 +22,7 @@ body
 header
 {
 	position: absolute;
-	left: 43%;
+	left: 38%;
 }
 
 h1
@@ -34,6 +34,12 @@ h1
 .jaune
 {
 	color: #FFD600;
+}
+.souligne
+{
+	position: relative;
+	width: 55px;
+	right: 110px;
 }
 
 .taille
@@ -47,11 +53,11 @@ h1
 	flex-direction: row;
 }
 
-aside /* Partie liseret */
+.position.gauche /* Partie liseret */
 {
 	position: relative;
 	width: 405px;
-	height: 1420px;
+	height: 1470px;
 	background-color: #FFD600;
 	word-break: break-all;
 }
@@ -83,7 +89,7 @@ img
    width:200px;
    clip-path: ellipse(35% 50%);
    position: relative;
-   left: 48px;
+   left: 28px;
    margin-top: 50px;
 }
 
@@ -95,19 +101,26 @@ img
 	top: 470px;
 }
 
-.fas.fa-running.fa-2x
+.fas.fa-running.fa-2x , .fas.fa-plane.fa-2x
 {
 	color: #424242;
-}
-
-.fas.fa-plane.fa-2x
-{
-	color: #424242;
+	width: 41px;
+	height: 38px;
+	padding-top: 5px;
+	padding-left: 6px;
+ 	border-radius: 50%;
+	border: 1px solid #424242;
 }
 
 .fas.fa-gamepad.fa-2x
 {
 	color: #424242;
+	width: 44px;
+	height: 38px;
+	padding-top: 5px;
+	padding-left: 3px;
+ 	border-radius: 50%;
+	border: 1px solid #424242;
 }
 
 .titre
@@ -183,7 +196,7 @@ i
 		font-size: 20px;
     }
 
-	aside
+	.position.gauche
 	{
 		width: auto;
 	}
