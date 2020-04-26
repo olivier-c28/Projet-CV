@@ -193,7 +193,7 @@ i
     {
 		width: auto;
 		background-color: #FFD600;
-		font-size: 20px;
+		font-size: 13px;
     }
 
 	.position.gauche
@@ -212,17 +212,24 @@ i
         width: auto;
 		margin-bottom: 15px;
 		margin-right: 50px;
+		position: relative;
+		bottom: 190px;
     }
 
 	header
 	{
 		position: static;
-		margin-left: 37%;
+		text-align: center;
+	}
+
+	.souligne
+	{
+		visibility: hidden;
 	}
 
 	img 
 	{
-		left: 40%;
+		left: 34%;
 	}
 
 	.jaune, hr, i, h2, .titre
@@ -238,15 +245,17 @@ i
 	.fas.fa-running.fa-2x, .fas.fa-plane.fa-2x, .fas.fa-gamepad.fa-2x
 	{
 		color: white;
+		padding-left: 12px;
+		padding-top: 10px;
 	}
 
 	#hobbies
 	{
-		top: 150px;
+		top: 230px;
 	}
 	.titre
 	{
-		top: 150px;
+		top: 200px;
 	}
 
 	table
