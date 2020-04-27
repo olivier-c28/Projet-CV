@@ -57,7 +57,7 @@ h1
 {
 	position: relative;
 	width: 405px;
-	height: 1540px;
+	height: 1580px;
 	background-color: #FFD600;
 	word-break: break-all;
 }
@@ -103,7 +103,7 @@ li
 	display: flex;
 	justify-content: space-around;
 	position: relative;
-	top: 380px;
+	top: 410px;
 }
 
 .fas.fa-running.fa-2x , .fas.fa-plane.fa-2x
@@ -131,7 +131,7 @@ li
 .titre
 {
 	position: relative;
-	top: 380px;
+	top: 410px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 20px;
