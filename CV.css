@@ -35,16 +35,18 @@ h1
 {
 	color: #FFD600;
 }
-.souligne
-{
-	position: relative;
-	width: 55px;
-	right: 110px;
-}
 
 .taille
 {
 	font-size: 20px;
+}
+
+.taille:after 
+{
+  border-bottom: 2px solid #FFD600;
+  content: '';
+  display: block;
+  width: 20%;
 }
 
 #position
@@ -160,6 +162,13 @@ h3
 	left: 90px;
 }
 
+h3:after {
+  border-bottom: 2px solid #FFD600;
+  content: '';
+  display: block;
+  width: 90%;
+}
+
 strong
 {
 	text-transform: uppercase;
@@ -171,12 +180,6 @@ td
 	width: 465px;
 	vertical-align: top;
 	word-break: normal;
-}
-
-hr
-{
-	height: 1px;
-	background-color: #FFD600;
 }
 
 i
@@ -224,11 +227,6 @@ i
 	h3
 	{
 		margin-bottom: 190px;
-	}
-
-	hr
-	{
-		margin-right: 100px;
 	}
 
     section
