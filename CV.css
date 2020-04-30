@@ -223,7 +223,8 @@ i
 
 	header
 	{
-		left: 26%;
+		margin-left: 26%;
+		position: static;
 	}
 
 	.taille:after
